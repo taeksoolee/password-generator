@@ -5,6 +5,8 @@ import { TestComp } from "./components/TestComp";
 export default function Home() {
   return (
     <main>
+      <h1>Portfolio</h1>
+      <div></div>
       <TestComp />
     </main>
   );

@@ -5,6 +5,6 @@ module.exports = stylexPlugin({
   aliases: { 
     '@/*': [path.join(__dirname, '*')],
   },
-  rootDir: path.join(__dirname, 'src'),
+  rootDir: path.join(__dirname),
 })({
 });
