@@ -1,15 +1,8 @@
+import './globals.css';
+
 import type { Metadata } from "next";
 // import { Inter } from "next/font/google";
 // const inter = Inter({ subsets: ["latin"] });
-
-import * as stylex from '@stylexjs/stylex';
-
-const styles = stylex.create({
-  body: {
-    padding: '2rem',
-    margin: 0,
-  },
-});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body {...stylex.props(styles.body)}>
+      <body>
         {children}
       </body>
     </html>

@@ -7,10 +7,10 @@ const styles = stylex.create({
     backgroundColor: 'rgba(0,0,1,1)',
     padding: '1rem',
     paddingInlineStart: '2rem',
-    margin: 0,
   },
   conditional: {
     backgroundColor: 'blue',
+    // padding: 0,
   },
   dynamic: (opacity) => ({
     opacity,
