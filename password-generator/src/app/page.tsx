@@ -9,9 +9,15 @@ export default function Home() {
   };
   return (
     <main>
-      <h1>Portfolio</h1>
+      <h1>Password Generator</h1>
       <div></div>
       <Card {...cardProps} /> 
+      <form>
+        <input />
+        <input />
+
+        <button></button>
+      </form>
     </main>
   );
 }
