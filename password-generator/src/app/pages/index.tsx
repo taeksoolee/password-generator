@@ -7,16 +7,19 @@ export default function Home() {
   const cardProps = {
     title: 'Title', body: 'Content', href: 'https://www.naver.com',
   };
+
+  
+
   return (
     <main>
-      <h1>Password Generator</h1>
-      <div></div>
       <Card {...cardProps} /> 
+      <hr />
+      <h1>Password Generator</h1>
       <form>
         <input />
         <input />
 
-        <button></button>
+        <button>Submit</button>
       </form>
     </main>
   );
